@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio — Lévy CINQ-VAL</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ========== NAVIGATION ========== -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-circle">
+                    <svg viewBox="0 0 24 24" class="logo-icon">
+                        <path fill="currentColor" d="M4,12 Q6,8 12,12 T20,12 L21,11 L22,12 L21,13 L20,12 Q14,16 12,12 T4,12 M18,8 L20,6 L18,12 M18,16 L20,18 L18,12"/>
+                    </svg>
+                </div>
+                <span>Lévy CINQ-VAL</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Accueil</a>
+                <a href="#about" class="nav-link">À Propos</a>
+                <a href="#projets" class="nav-link">Projets</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Changer de thème">☀️</button>
+                <button class="mobile-toggle" id="mobileToggle" aria-expanded="false" aria-controls="navMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== HERO ========== -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <img src="https://images.unsplash.com/photo-1679745751539-97b257f608ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdG9ybXklMjBvY2VhbiUyMHdhdmVzJTIwcm91Z2glMjBzZWF8ZW58MXx8fHwxNzc0MjcxOTcyfDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Mer déchaînée">
+            <div class="hero-overlay"></div>
+        </div>
+
+        <div class="floating-shark">
+            <img src="images/pngtree-a-highly-detailed-3d-rendering-of-great-white-shark-swimming-through-png-image_16489810.png" alt="Requin">
+        </div>
+
+        <div class="hero-content">
+            <h1 class="hero-title">Lévy CINQ-VAL</h1>
+            <p class="hero-subtitle">Graphiste Multimédia en devenir</p>
+            <p class="hero-text">Design • Illustration • Création Visuelle</p>
+            <a href="#about" class="hero-btn">Découvrir mon univers</a>
+            <div class="scroll-indicator">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+            </div>
+        </div>
+
+        <!-- Bubbles -->
+        <div class="bubbles">
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+        </div>
+    </section>
+
+    <!-- ========== À PROPOS ========== -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">À Propos</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">
+                    Passionné par la création visuelle, j'aime donner vie à des idées à travers le dessin, 
+                    le graphisme et le digital. Inspiré par la nature, la mer et l'art urbain.
+                </p>
+            </div>
+
+            <div class="about-grid">
+                <!-- Portrait -->
+                <div class="portrait-wrapper">
+                    <div class="portrait-frame">
+                        <img src="images/portrait.png" alt="Portrait de Lévy CINQ-VAL" width="280" height="280">
+                    </div>
+                    <p class="portrait-caption">Étudiant en BUT MMI</p>
+                </div>
+
+                <!-- Compétences -->
+                <div class="skills-block">
+                    <h3 class="skills-title">Mes compétences</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon" style="background-color: rgba(102,204,255,0.2);">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#66ccff" stroke-width="2">
+                                    <polyline points="16 18 22 12 16 6"></polyline>
+                                    <polyline points="8 6 2 12 8 18"></polyline>
+                                </svg>
+                            </div>
+                            <h4>HTML / CSS</h4>
+                            <p>Intégration web, responsive design, accessibilité</p>
+                            <span class="skill-level">Débutant</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon" style="background-color: rgba(77,184,255,0.2);">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#4db8ff" stroke-width="2">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                                </svg>
+                            </div>
+                            <h4>Design</h4>
+                            <p>Création graphique, mise en page, identité visuelle</p>
+                            <span class="skill-level">Canva</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon" style="background-color: rgba(51,163,255,0.2);">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#33a3ff" stroke-width="2">
+                                    <polygon points="23 7 16 12 23 17 23 7"></polygon>
+                                    <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+                                </svg>
+                            </div>
+                            <h4>Montage</h4>
+                            <p>Retouche photo, montage créatif</p>
+                            <span class="skill-level">Picsart</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon" style="background-color: rgba(26,143,255,0.2);">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#1a8fff" stroke-width="2">
+                                    <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+                                    <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                                    <path d="M2 2l7.586 7.586"></path>
+                                    <circle cx="11" cy="11" r="2"></circle>
+                                </svg>
+                            </div>
+                            <h4>Dessin Digital</h4>
+                            <p>Illustration numérique, art conceptuel</p>
+                            <span class="skill-level">Procreate</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROJETS ========== -->
+    <section id="projets" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Projets</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">
+                    Découvrez une sélection de mes réalisations en design graphique
+                </p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Projet 1 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/projet1.png" alt="Design Moderne — Logo">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Design Moderne</h3>
+                        <p>Création d'un logo épuré aux lignes contemporaines, mêlant typographie et symbole fort.</p>
+                        <div class="project-tags">
+                            <span class="tag">Logo</span>
+                            <span class="tag">Identité</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://drive.google.com/file/d/1HuyUU9a-M9SY7Jllkc6DDVfAMstiaa91/view?usp=drive_link" class="project-link" target="_blank" rel="noopener">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                                Voir le projet
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Projet 2 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/projet2.png" alt="Identité Visuelle — Branding">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Identité Visuelle</h3>
+                        <p>Conception d'une charte graphique complète : palette, typographie et déclinaisons visuelles.</p>
+                        <div class="project-tags">
+                            <span class="tag">Branding</span>
+                            <span class="tag">Charte</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                                Voir le projet
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Projet 3 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/projet3.png" alt="Campagne Publicitaire — Affiche">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Campagne Publicitaire</h3>
+                        <p>Création d'affiches percutantes pour une campagne de communication visuelle engagée.</p>
+                        <div class="project-tags">
+                            <span class="tag">Affiche</span>
+                            <span class="tag">Campagne</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                                Voir le projet
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Projet 4 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x300/4facfe/ffffff?text=Social+Media" alt="Design Social Media">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Design Social Media</h3>
+                        <p>Visuels adaptés aux réseaux sociaux : stories, posts et bannières cohérentes avec l'identité de marque.</p>
+                        <div class="project-tags">
+                            <span class="tag">Canva</span>
+                            <span class="tag">Social</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                                Voir le projet
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Projet 5 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x300/fa709a/ffffff?text=Illustration" alt="Illustration Digitale">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Illustration Digitale</h3>
+                        <p>Illustrations originales sur Procreate, inspirées de la nature, de la mer et de l'art urbain.</p>
+                        <div class="project-tags">
+                            <span class="tag">Procreate</span>
+                            <span class="tag">Illustration</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                                Voir le projet
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Projet 6 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x300/43e97b/ffffff?text=Packaging" alt="Packaging Produit">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Packaging Produit</h3>
+                        <p>Conception de packaging avec une identité visuelle forte, alliant forme, couleur et message.</p>
+                        <div class="project-tags">
+                            <span class="tag">Packaging</span>
+                            <span class="tag">Design</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                                Voir le projet
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section id="contact" class="contact">
+        <div class="swimming-shark">
+            <svg viewBox="0 0 200 100" class="shark-svg">
+                <path d="M10,50 Q30,30 50,50 T90,50 L95,45 L100,50 L95,55 L90,50 Q70,70 50,50 T10,50 M85,40 L90,35 L85,50 M85,60 L90,65 L85,50" fill="currentColor"/>
+            </svg>
+        </div>
+
+        <div class="container contact-container">
+            <div class="section-header">
+                <h2 class="section-title">Contact</h2>
+                <div class="title-underline"></div>
+                <p class="section-description">
+                    Un projet créatif en tête ? Une collaboration à proposer ?<br>
+                    N'hésitez pas à me contacter !
+                </p>
+            </div>
+
+            <!-- Liens sociaux -->
+            <div class="social-links">
+                <a href="mailto:levynetwork05@gmail.com" class="social-card">
+                    <div class="social-icon" style="background-color: rgba(102,204,255,0.2);">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#66ccff" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </div>
+                    <span>Email</span>
+                </a>
+
+                <a href="https://sillylinks.carrd.co/" class="social-card" target="_blank" rel="noopener me">
+                    <div class="social-icon" style="background-color: rgba(77,184,255,0.2);">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4db8ff" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </div>
+                    <span>Instagram</span>
+                </a>
+
+                <a href="https://sillylinks.carrd.co/" class="social-card" target="_blank" rel="noopener me">
+                    <div class="social-icon" style="background-color: rgba(51,163,255,0.2);">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#33a3ff" stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </div>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+
+            <!-- Formulaire -->
+            <div class="contact-form-container">
+                <form class="contact-form" id="contactForm" aria-label="Formulaire de contact" novalidate>
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="nom">Nom</label>
+                            <input type="text" id="nom" name="nom" class="form-input" placeholder="Votre nom" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" placeholder="votre@email.com" required>
+                        </div>
+                    </div>
+                    <div class="form-field">
+                        <label for="sujet">Sujet</label>
+                        <input type="text" id="sujet" name="sujet" class="form-input" placeholder="Sujet de votre message" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" class="form-textarea" rows="5" maxlength="280" placeholder="Votre message..." aria-describedby="msg-count"></textarea>
+                        <p id="msg-count" class="char-count">Reste : <span id="restant">280</span> caractères</p>
+                    </div>
+                    <button type="submit" class="form-submit">Envoyer le message</button>
+                </form>
+            </div>
+
+            <p class="copyright">© <span id="annee"></span> Lévy CINQ-VAL — BUT MMI</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
